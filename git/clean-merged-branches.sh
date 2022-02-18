@@ -7,7 +7,7 @@ upto_branches=()
 failed_branches=()
 
 for branch in $branches; do
-    if [ "$branch" != 'main' -a "$branch" != 'person/aivanov/vdk-core' -a "$branch" != 'person/aivanov/vdk-core-config' ];
+    if [ "$branch" != 'main'  ];
     then
         echo ""
         echo "$branch"
